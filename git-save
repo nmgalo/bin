@@ -1,0 +1,6 @@
+#!/bin/bash
+set -e
+git add .
+git commit -s -m "Automatic commit from github.com/nmgalo/bin/git-save"
+git push origin main
+echo "Saved..."
